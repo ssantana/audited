@@ -35,7 +35,6 @@ module Audited
 
         before_create :set_created_at
 
-        def self.acending;   sort(:version.asc); end
         def self.ascending;  sort(:version.asc); end
         def self.descending; sort(:version.desc); end
         def self.creates;    where(:action => 'create'); end
