@@ -57,7 +57,7 @@ module Audited
       private
         def set_version_number
           last_version = self.class.where(:auditable_id => auditable_id).where(:auditable_type => auditable_type).order(:id).last
-          max = last_version ? last_version.version || 0
+          max = last_version ? last_version.version : 0
           self.version = max + 1
         end
       end
