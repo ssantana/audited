@@ -18,4 +18,3 @@ Gem::Specification.new do |gem|
   gem.files         << 'LICENSE'
   gem.require_paths = ['lib']
 end
-

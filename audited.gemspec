@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'audited'
-  gem.version = '3.0.0'
+  gem.version = '3.0.1'
 
   gem.authors     = ['Brandon Keepers', 'Kenneth Kalmer', 'Daniel Morrison', 'Brian Ryckbost', 'Steve Richert', 'Ryan Glover']
   gem.email       = 'info@collectiveidea.com'
@@ -23,4 +23,3 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(/^spec\//)
   gem.require_paths = ['lib']
 end
-
